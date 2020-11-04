@@ -11,10 +11,11 @@
 		<pattern>/*</pattern>
 	</decorator>
 
-	<!-- Excludes will never be decorated by Sitemesh. -->
+	<!-- Sitemesh 적용 -->
 	<excludes>
-		<pattern>*/exclude/*</pattern>
+		<pattern>*/ajax/*</pattern>
 		<pattern>/data/plaintext/*</pattern>
 		<pattern>/index.jsp</pattern>
+		<pattern>/usersList_Json.jsp</pattern> <!-- 사이트매쉬적용안함 -->
 	</excludes>
 </decorators>
